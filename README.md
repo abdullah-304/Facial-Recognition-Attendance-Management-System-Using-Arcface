@@ -1,5 +1,6 @@
-**# Facial-Recognition-Attendance-Management-System-Using-Arcface**
-The Facial Recognition Attendance Management System is an AI-powered solution that automates the attendance marking process using live camera input. This project uses ArcFace (via InsightFace) for face recognition and attendance marking.  
+** Facial-Recognition-Attendance-Management-System-Using-Arcface**
+The Facial Recognition Attendance Management System is an AI-powered solution that automates the attendance marking process using live camera input. This project uses ArcFace (via InsightFace) for face recognition and attendance marking.
+
 **Repository:** [https://github.com/abdullah-304/Facial-Recognition-Attendance-Management-System-Using-Arcface].
 
 ------
@@ -58,14 +59,14 @@ Replace the path with your actual wheel file location if different:
 pip install ultralytics opencv-python numpy scikit-learn
 ```
 
----
+------
 
 ## File & Folder Setup
 
 - Place your known faces in subfolders under `D:\face\non_face` (or change the path in the script):
-  - Each subfolder should be named with a unique ID (e.g., roll number) and contain images of that person.
+- Each subfolder should be named with a unique ID (e.g., roll number) and contain images of that person.
 
----
+------
 
 ## Usage
 
@@ -82,7 +83,7 @@ python realtime_face_recognition.py
   - Draw bounding boxes and labels on the image
   - Log recognized faces to `attendance.csv`
 
----
+------
 
 ## Example Directory Structure
 in Non_face folder folder name must be id and inside u have the images such as Alisa1.jpg , Alisa2.jpg like and same goes for all folders 
@@ -113,7 +114,7 @@ project/
 - **Large files on GitHub:**  
   Use Git LFS for model files.
 
----
+------
 if you face any issue do hit me up on my 
 LinkedIn: [https://www.linkedin.com/in/muhammad-abdullah-225b05317/]
 
